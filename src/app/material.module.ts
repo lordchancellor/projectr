@@ -1,7 +1,14 @@
 import { NgModule } from '@angular/core';
 
-const materialModules: any[] = [
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 
+import { MatInputModule } from '@angular/material/input';
+
+const materialModules: any[] = [
+	MatCardModule,
+	MatButtonModule,
+	MatInputModule
 ];
 
 @NgModule({
